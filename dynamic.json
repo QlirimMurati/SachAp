@@ -1,0 +1,1590 @@
+{
+    "Id": 110,
+    "Guid": "E95D8B1188E8422E917D8470BA162258",
+    "AntragsbereichList": [
+      {
+        "Id": 669,
+        "SortKey": 1,
+        "AngabeList": [
+          {
+            "Id": 1729,
+            "Ziel": "VmFirma",
+            "Value": "softfair GmbH",
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/firma",
+            "FeldTyp": "Text",
+            "SortKey": 1,
+            "Fragetext": "Firma",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "54",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:53:27.316857",
+            "MaxZeichen": "54",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:49:35.885815",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1730,
+            "Ziel": "VmNachname",
+            "Value": "Musteruser 299153",
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/name",
+            "FeldTyp": "Text",
+            "SortKey": 2,
+            "Fragetext": "Name",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "54",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:53:58.821033",
+            "MaxZeichen": "54",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:50:11.046519",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1731,
+            "Ziel": "VermittlernummerVm",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/vermittlernummer",
+            "FeldTyp": "Ziffern",
+            "SortKey": 4,
+            "Fragetext": "Abschlussvermittler/in (Nummer)",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben."
+              },
+              {
+                "Type": "MinLength",
+                "Value": "5",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den min. Wert"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "8",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den max. Wert"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:55:13.80236",
+            "MaxZeichen": "8",
+            "MinZeichen": "5",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:01:22.695016",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1732,
+            "Ziel": "VmBetreuerNummer",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/betreuerNummer",
+            "FeldTyp": "Telefonnummer",
+            "SortKey": 5,
+            "Fragetext": "Betreuer/in (Nummer)",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "28",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:56:12.727486",
+            "MaxZeichen": "28",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:50:50.762592",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1733,
+            "Ziel": "VmBestandspflegernummer",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/bestandspflegerNummer",
+            "FeldTyp": "Telefonnummer",
+            "SortKey": 6,
+            "Fragetext": "Bestandspfleger/in (Nummer)",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "28",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:57:56.207509",
+            "MaxZeichen": "28",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:57:53.96786",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1734,
+            "Ziel": "VmDynamikvermittlernummer",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/dynamikVermittlerNummer",
+            "FeldTyp": "Telefonnummer",
+            "SortKey": 7,
+            "Fragetext": "Dynamikvermittler/in (Nummer)",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "28",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:58:34.591352",
+            "MaxZeichen": "28",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:58:11.138398",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1735,
+            "Ziel": "VmExterneVermittlernummer",
+            "Value": "10193",
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/vermittlernummerExtern",
+            "FeldTyp": "Ziffern",
+            "SortKey": 8,
+            "Fragetext": "Externe Vermittlernummer",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den min. Wert"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "27",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den max. Wert"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:59:09.300404",
+            "MaxZeichen": "27",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:07:42.298812",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1736,
+            "Ziel": "VmExterneReferenznummer",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/referenznummerExtern",
+            "FeldTyp": "Ziffern",
+            "SortKey": 9,
+            "Fragetext": "Externe Referenznummer",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den min. Wert"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "27",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den max. Wert"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-07T10:59:37.123008",
+            "MaxZeichen": "27",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:07:48.843484",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 2068,
+            "Ziel": "VmVorname",
+            "Value": "Max",
+            "Quelle": "/regalrequest/eingabedaten/vermittlerdaten/vorname",
+            "FeldTyp": "Text",
+            "SortKey": 3,
+            "Fragetext": "Vorname",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "54",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-29T17:53:03.875004",
+            "MaxZeichen": "54",
+            "MinZeichen": "0",
+            "Defaultwert": null,
+            "ErstelltVon": 4,
+            "GeaendertAm": "2020-02-12T11:50:18.618123",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 669,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          }
+        ],
+        "Bezeichnung": "Angaben zu Antrag und Vermittler",
+      },
+      {
+        "Id": 670,
+        "SortKey": 2,
+        "AngabeList": [
+          {
+            "Id": 1608,
+            "Ziel": "VnGeburtsdatum",
+            "Value": "1985-02-16",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/geburtsdatum",
+            "FeldTyp": "Datum",
+            "SortKey": 8,
+            "Fragetext": "Geburtsdatum",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Editable",
+                "Value": "false",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1899-12-31T23:00:00.0000000Z",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Wert"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "2899-12-31T23:00:00.0000000Z",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Wert"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2019-12-20T09:57:36.279473",
+            "MaxZeichen": "2899-12-31T23:00:00.0000000Z",
+            "MinZeichen": "1899-12-31T23:00:00.0000000Z",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:27:55.70175",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": "03-000003",
+            "IstEditierbar": false,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1611,
+            "Ziel": "VnTitel",
+            "Value": "Kein",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/titel",
+            "FeldTyp": "Dropdown-Liste",
+            "SortKey": 2,
+            "Fragetext": "Titel",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Zulässige Werte",
+                "Value": "Kein;Dr.;Prof.;Prof. Dr.",
+                "Message": "Keine Antwortoptionen vorhanden. Bitte korrigieren Sie die Angabe in der Katalog-Verwaltung."
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2019-12-20T09:57:36.279405",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-30T13:23:03.571143",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": "03-000002",
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "Kein;Dr.;Prof.;Prof. Dr."
+          },
+          {
+            "Id": 1612,
+            "Ziel": "VnTelefonPrivat",
+            "Value": "",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/telefonprivat",
+            "FeldTyp": "Text",
+            "SortKey": 18,
+            "Fragetext": "Telefon (privat)",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "22",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2019-12-20T09:57:36.279383",
+            "MaxZeichen": "22",
+            "MinZeichen": "0",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:30:54.886156",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": "03-000008",
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1617,
+            "Ziel": "VnAnredeString",
+            "Value": "männlich",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/geschlecht",
+            "FeldTyp": "Radiobutton-Liste",
+            "SortKey": 1,
+            "Fragetext": "Anrede",
+            "IstAktive": false,
+            "Validator": [],
+            "Zulaessig": "",
+            "ErstelltAm": "2019-12-20T09:57:36.27943",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:58:58.290212",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": "03-000001",
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "Herr|männlich;Frau|weiblich"
+          },
+          {
+            "Id": 1737,
+            "Ziel": "VnVorname",
+            "Value": "Lv",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/vorname",
+            "FeldTyp": "Text",
+            "SortKey": 3,
+            "Fragetext": "Vorname",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "22",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:45:20.052819",
+            "MaxZeichen": "22",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:59:14.688961",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1738,
+            "Ziel": "VnNachname",
+            "Value": "automatischestests",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/name",
+            "FeldTyp": "Text",
+            "SortKey": 4,
+            "Fragetext": "Nachname",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "30",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:46:58.404599",
+            "MaxZeichen": "30",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T11:59:20.849526",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1739,
+            "Ziel": "VnStrasseUndHausnummer",
+            "Value": "Albert-Einstein-Ring 15",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/strasse",
+            "FeldTyp": "Text",
+            "SortKey": 5,
+            "Fragetext": "Straße und Hausnummer",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "36",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:47:50.904858",
+            "MaxZeichen": "36",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:00:05.4531",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1740,
+            "Ziel": "VnPlz",
+            "Value": "22761",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/plz",
+            "FeldTyp": "Ziffern",
+            "SortKey": 6,
+            "Fragetext": "PLZ",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben."
+              },
+              {
+                "Type": "MinLength",
+                "Value": "5",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den min. Wert"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "5",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den max. Wert"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:49:15.111119",
+            "MaxZeichen": "5",
+            "MinZeichen": "5",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:00:51.629121",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1741,
+            "Ziel": "VnOrt",
+            "Value": "Hamburg",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/ort",
+            "FeldTyp": "Text",
+            "SortKey": 7,
+            "Fragetext": "Wohnort",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "30",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:50:00.724368",
+            "MaxZeichen": "30",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:01:25.444156",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1742,
+            "Ziel": "VnGeburtsort",
+            "Value": "",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/geburtsort",
+            "FeldTyp": "Text",
+            "SortKey": 9,
+            "Fragetext": "Geburtsort",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "26",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:52:55.624664",
+            "MaxZeichen": "26",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:01:54.02154",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1743,
+            "Ziel": "VnGeburtsname",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/geburtsname",
+            "FeldTyp": "Text",
+            "SortKey": 10,
+            "Fragetext": "Geburtsname",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "22",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:53:50.504375",
+            "MaxZeichen": "22",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:02:31.434089",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1744,
+            "Ziel": "VnStaatsangehoerigkeit",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/staatsangehoerigkeit",
+            "FeldTyp": "Dropdown-Liste",
+            "SortKey": 11,
+            "Fragetext": "Staatsangehörigkeit",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "Zulässige Werte",
+                "Value": ";Deutschland;Afghanistan;Ägypten;Albanien;Algerien;Andorra;Angola;Argentinien;Armenien;Äthiopien;Australien;Bahamas;Bahrain;Bangladesch;Barbados;Belgien;Belize;Bermuda;Bolivien;Bosnien und Herzegowina;Botsuana;Brasilien;Brunei Darussalam;Bulgarien;Burkina Faso;Burundi;Chile;China einschl. Tibet;Costa Rica;Dänemark;Dominica;Dominik. Republik;Ecuador;Eritrea;Estland;Finnland;Frankreich;Gambia;Georgien;Ghana;Gibraltar;Grenada;Griechenland;Guatemala;Guinea;Guyana;Haiti;Honduras;Indien;Indonesien;Irak;Iran;Irland;Island;Israel;Italien;Jamaika;Japan;Jemen;Jordanien;Kambodscha;Kamerun;Kanada;Kasachstan;Kenia;Kirgisistan;Kolumbien;Kongo;Kongo, Dem. Republik;Korea, Dem. Volksrepublik (Nord);Korea, Republik (Süd);Kosovo;Kroatien;Kuba;Kuwait;Laos, Dem. Volksrepublik;Lettland;Libanon;Liberia;Libysch-Arabische Republik;Liechtenstein;Litauen;Luxemburg;Madagaskar;Malawi;Malaysia;Malta;Marokko;Mauretanien;Mazedonien;Mexiko;Moldau, Republik;Monaco;Mongolei;Montenegro;Mosambik;Namibia;Neuseeland;Nicaragua;Niederlande;Niger;Nigeria;Norwegen;Oman;Österreich;Pakistan;Panama;Paraguay;Peru;Philippinen;Polen;Portugal;Republik Serbien;Ruanda;Rumänien;Russische Föderation;Sambia;San Marino;Saudi-Arabien;Schweden;Schweiz;Senegal;Sierra Leone;Simbabwe;Singapur;Slowakei;Slowenien;Somalia;Spanien;Sri Lanka;staatenlos;Südafrika;Sudan;Suriname;Syrien, Arabische Republik;Taiwan;Tansania, Vereinigte Republik;Thailand;Togo;Trinidad und Tobago;Tschad;Tschechische Republik;Tunesien;Türkei;Turkmenistan;Uebriges Afrika;Uebriges Amerika;Uebriges Asien;Uebriges Europa;Uebriges Ozeanien;Uganda;Ukraine;Ungarn;Uruguay;Usbekistan;Vatikanstadt;Venezuela;Ver. Arabische Emirate;Vereinigte Staaten v. Amerika;Vereinigtes Königreich Großbritannien und Nordirland;Vietnam;Weißrussland (Belarus);Zentralafrikanische Republik;Zypern",
+                "Message": "Keine Antwortoptionen vorhanden. Bitte korrigieren Sie die Angabe in der Katalog-Verwaltung."
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:54:46.57707",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:02:52.790145",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ";Deutschland;Afghanistan;Ägypten;Albanien;Algerien;Andorra;Angola;Argentinien;Armenien;Äthiopien;Australien;Bahamas;Bahrain;Bangladesch;Barbados;Belgien;Belize;Bermuda;Bolivien;Bosnien und Herzegowina;Botsuana;Brasilien;Brunei Darussalam;Bulgarien;Burkina Faso;Burundi;Chile;China einschl. Tibet;Costa Rica;Dänemark;Dominica;Dominik. Republik;Ecuador;Eritrea;Estland;Finnland;Frankreich;Gambia;Georgien;Ghana;Gibraltar;Grenada;Griechenland;Guatemala;Guinea;Guyana;Haiti;Honduras;Indien;Indonesien;Irak;Iran;Irland;Island;Israel;Italien;Jamaika;Japan;Jemen;Jordanien;Kambodscha;Kamerun;Kanada;Kasachstan;Kenia;Kirgisistan;Kolumbien;Kongo;Kongo, Dem. Republik;Korea, Dem. Volksrepublik (Nord);Korea, Republik (Süd);Kosovo;Kroatien;Kuba;Kuwait;Laos, Dem. Volksrepublik;Lettland;Libanon;Liberia;Libysch-Arabische Republik;Liechtenstein;Litauen;Luxemburg;Madagaskar;Malawi;Malaysia;Malta;Marokko;Mauretanien;Mazedonien;Mexiko;Moldau, Republik;Monaco;Mongolei;Montenegro;Mosambik;Namibia;Neuseeland;Nicaragua;Niederlande;Niger;Nigeria;Norwegen;Oman;Österreich;Pakistan;Panama;Paraguay;Peru;Philippinen;Polen;Portugal;Republik Serbien;Ruanda;Rumänien;Russische Föderation;Sambia;San Marino;Saudi-Arabien;Schweden;Schweiz;Senegal;Sierra Leone;Simbabwe;Singapur;Slowakei;Slowenien;Somalia;Spanien;Sri Lanka;staatenlos;Südafrika;Sudan;Suriname;Syrien, Arabische Republik;Taiwan;Tansania, Vereinigte Republik;Thailand;Togo;Trinidad und Tobago;Tschad;Tschechische Republik;Tunesien;Türkei;Turkmenistan;Uebriges Afrika;Uebriges Amerika;Uebriges Asien;Uebriges Europa;Uebriges Ozeanien;Uganda;Ukraine;Ungarn;Uruguay;Usbekistan;Vatikanstadt;Venezuela;Ver. Arabische Emirate;Vereinigte Staaten v. Amerika;Vereinigtes Königreich Großbritannien und Nordirland;Vietnam;Weißrussland (Belarus);Zentralafrikanische Republik;Zypern"
+          },
+          {
+            "Id": 1745,
+            "Ziel": "VnFamilienstandString",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/familienstand",
+            "FeldTyp": "Dropdown-Liste",
+            "SortKey": 12,
+            "Fragetext": "Familienstand",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Zulässige Werte",
+                "Value": "ledig;verheiratet;eingetragene Lebenspartnerschaft;geschieden;verwitwet",
+                "Message": "Keine Antwortoptionen vorhanden. Bitte korrigieren Sie die Angabe in der Katalog-Verwaltung."
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:56:29.405753",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:28:29.156605",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "ledig;verheiratet;eingetragene Lebenspartnerschaft;geschieden;verwitwet"
+          },
+          {
+            "Id": 1746,
+            "Ziel": "VnSteueridentifikationsnummer",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/steuernummer",
+            "FeldTyp": "Ziffern",
+            "SortKey": 13,
+            "Fragetext": "Steueridentifikationsnummer",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben."
+              },
+              {
+                "Type": "MinLength",
+                "Value": "11",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den min. Wert"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "11",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie den max. Wert"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:57:35.88924",
+            "MaxZeichen": "11",
+            "MinZeichen": "11",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:03:51.376374",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1747,
+            "Ziel": "VnTaetigkeitsstatus",
+            "Value": "Angestellte(r)",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/taetigkeitsstatus",
+            "FeldTyp": "Dropdown-Liste",
+            "SortKey": 14,
+            "Fragetext": "Tätigkeitsstatus",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Zulässige Werte",
+                "Value": "Keine Angabe;Angestellte(r);Angestellte(r)-Teilzeit;selbstständig/freiberuflich;selbstständig/freiberuflich-Teilzeit;Beamter(in)/öffentl. Dienst;Beamter(in)/öffentl. Dienst-Teilzeit;Arbeiter(in);Arbeiter(in)-Teilzeit;Hausfrau/-mann;Sonstiges;Gesellschafter - Geschäftsführer(in);Arbeitslos",
+                "Message": "Keine Antwortoptionen vorhanden. Bitte korrigieren Sie die Angabe in der Katalog-Verwaltung."
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:58:52.190851",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:29:08.047631",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "Keine Angabe;Angestellte(r);Angestellte(r)-Teilzeit;selbstständig/freiberuflich;selbstständig/freiberuflich-Teilzeit;Beamter(in)/öffentl. Dienst;Beamter(in)/öffentl. Dienst-Teilzeit;Arbeiter(in);Arbeiter(in)-Teilzeit;Hausfrau/-mann;Sonstiges;Gesellschafter - Geschäftsführer(in);Arbeitslos"
+          },
+          {
+            "Id": 1748,
+            "Ziel": "VnBeruf",
+            "Value": "500",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/berufId",
+            "FeldTyp": "Text",
+            "SortKey": 15,
+            "Fragetext": "Ausgeübter Beruf/Branche",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Editable",
+                "Value": "false",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben."
+              },
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "100",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T08:59:49.846514",
+            "MaxZeichen": "100",
+            "MinZeichen": "0",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:04:19.791682",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": false,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1749,
+            "Ziel": "VnAusbilungHochschulabschluss",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/bonusfragen/ausbildungsFrage/antwort",
+            "FeldTyp": "Dropdown-Liste",
+            "SortKey": 16,
+            "Fragetext": "Ausbilungs-/Hochschulabschluss",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Zulässige Werte",
+                "Value": "Keine Angabe;Abgeschlossene Berufsausbildung;Abgeschlossene Weiterbildung: Meister, Techniker, Fachwirt;Berufliches Studium: Berufsakademie, private Hochschule;Bachelor: Universität, Fachhochschule;Diplom/Master: Fachhochschule;Diplom/Master/Magister/Staatsexamen: Universität",
+                "Message": "Keine Antwortoptionen vorhanden. Bitte korrigieren Sie die Angabe in der Katalog-Verwaltung."
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:00:30.84077",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:30:14.503623",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "Keine Angabe;Abgeschlossene Berufsausbildung;Abgeschlossene Weiterbildung: Meister, Techniker, Fachwirt;Berufliches Studium: Berufsakademie, private Hochschule;Bachelor: Universität, Fachhochschule;Diplom/Master: Fachhochschule;Diplom/Master/Magister/Staatsexamen: Universität"
+          },
+          {
+            "Id": 1750,
+            "Ziel": "VnEmail",
+            "Value": "",
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/email",
+            "FeldTyp": "Email",
+            "SortKey": 17,
+            "Fragetext": "E-Mail",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "36",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:01:23.042703",
+            "MaxZeichen": "36",
+            "MinZeichen": "0",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:30:36.450624",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1751,
+            "Ziel": "VnTelefonMobil",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/mobilfunknummer",
+            "FeldTyp": "Text",
+            "SortKey": 19,
+            "Fragetext": "Mobilfunknummer",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "22",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:02:57.610724",
+            "MaxZeichen": "22",
+            "MinZeichen": "0",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-29T21:31:31.513032",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1752,
+            "Ziel": "VnSteuerpflichtAusland",
+            "Value": "false",
+            "Quelle": "",
+            "FeldTyp": "Ja/Nein",
+            "SortKey": 20,
+            "Fragetext": "Der Versicherungsnehmer ist außerhalb Deutschlands steuerlich ansässig.",
+            "IstAktive": false,
+            "Validator": [],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:03:45.04101",
+            "MaxZeichen": "",
+            "MinZeichen": "",
+            "Defaultwert": "false",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-01-30T09:01:28.06316",
+            "Beschreibung": null,
+            "GeaendertVon": 4,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1753,
+            "Ziel": null,
+            "Value": null,
+            "Quelle": null,
+            "FeldTyp": "InfoText",
+            "SortKey": 21,
+            "Fragetext": " Versicherungsnehmer außerhalb Deutschlands steuerlich ansässig",
+            "IstAktive": false,
+            "Validator": [],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:06:13.618013",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": null,
+            "Beschreibung": null,
+            "GeaendertVon": null,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": false,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "Sofern der Versicherungsnehmer außerhalb Deutschlands steuerlich ansässig ist, bitte die folgenden Angaben machen:"
+          },
+          {
+            "Id": 1754,
+            "Ziel": "VnLandDerSteuerpflicht",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/steuerpflichtAusland/landDerSteuerpflicht",
+            "FeldTyp": "Text",
+            "SortKey": 22,
+            "Fragetext": "Land in dem die Steuerpflicht besteht",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "42",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:07:00.523918",
+            "MaxZeichen": "42",
+            "MinZeichen": "0",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:10:24.879456",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1755,
+            "Ziel": "VnSteuernummerImAusland",
+            "Value": null,
+            "Quelle": "/regalrequest/eingabedaten/ersteversicherteperson/steuerpflichtAusland/steuernummerImAusland",
+            "FeldTyp": "Text",
+            "SortKey": 23,
+            "Fragetext": "Steuernummer im Ausland",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "42",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:08:33.841342",
+            "MaxZeichen": "42",
+            "MinZeichen": "0",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:10:30.813854",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1756,
+            "Ziel": null,
+            "Value": null,
+            "Quelle": null,
+            "FeldTyp": "InfoText",
+            "SortKey": 24,
+            "Fragetext": "Identfizierung des Versicherungsnehmers: ",
+            "IstAktive": false,
+            "Validator": [],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:09:40.102405",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": null,
+            "ErstelltVon": 6,
+            "GeaendertAm": null,
+            "Beschreibung": null,
+            "GeaendertVon": null,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": false,
+            "PflichtAntrag": false,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 670,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": "Einreichung einer Kopie des gültigen Personalausweises oder Reisepasses des Versicherungsnehmers. Sofern für den Versicherungsnehmer ein Vertreter den Antrag unterzeichnet, ist zudem die Einreichung einer Ausweiskopie des Vertreters sowie eine Kopie des Nachweises der Vertretungsbefugnis (zum Beispiel Vollmacht) erforderlich."
+          }
+        ],
+        "Bezeichnung": "Angaben zum Versicherungnehmer",
+      },
+      {
+        "Id": 672,
+        "SortKey": 3,
+        "AngabeList": [
+          {
+            "Id": 1757,
+            "Ziel": "Iban",
+            "Value": "",
+            "Quelle": "/regalrequest/eingabedaten/technischedaten/sonstigedaten/iban",
+            "FeldTyp": "Text",
+            "SortKey": 1,
+            "Fragetext": "IBAN",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "22",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "22",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:15:19.882071",
+            "MaxZeichen": "22",
+            "MinZeichen": "22",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:29:00.610782",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 672,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1758,
+            "Ziel": "Bankname",
+            "Value": "",
+            "Quelle": "/regalrequest/eingabedaten/technischedaten/sonstigedaten/bankname",
+            "FeldTyp": "Text",
+            "SortKey": 2,
+            "Fragetext": "Kreditinstitut",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "1",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "27",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:16:27.901552",
+            "MaxZeichen": "27",
+            "MinZeichen": "1",
+            "Defaultwert": "",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:29:00.61083",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 672,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 1759,
+            "Ziel": "KontoinhaberIstVn",
+            "Value": "true",
+            "Quelle": "",
+            "FeldTyp": "Ja/Nein",
+            "SortKey": 3,
+            "Fragetext": "Kontoinhaber ist VN",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-01-08T09:17:43.253064",
+            "MaxZeichen": null,
+            "MinZeichen": null,
+            "Defaultwert": "true",
+            "ErstelltVon": 6,
+            "GeaendertAm": "2020-02-12T12:29:00.610876",
+            "Beschreibung": null,
+            "GeaendertVon": 6,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 672,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          },
+          {
+            "Id": 2084,
+            "Ziel": null,
+            "Value": "Vorbefüllt",
+            "Quelle": "sf-AC / Kundendatenbank",
+            "FeldTyp": "Text",
+            "SortKey": 4,
+            "Fragetext": "Falls Kontoinhaber nicht VN, nur Ehegatte /-in bei gemeinschaftlicher Veranlagung möglich. Bitte Vorname, Name, Geburtsdatum und Anschrift des/der Kontoinhabers/-in angeben",
+            "IstAktive": false,
+            "Validator": [
+              {
+                "Type": "Required",
+                "Value": "true",
+                "Message": "Sie müssen einen Wert für dieses Pflichtfeld eingeben"
+              },
+              {
+                "Type": "MinLength",
+                "Value": "0",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die min. Zeichenanzahl"
+              },
+              {
+                "Type": "MaxLength",
+                "Value": "162",
+                "Message": "Der eingegebene Wert ist ungültig. Bitte beachten Sie die max. Zeichenanzahl"
+              }
+            ],
+            "Zulaessig": "",
+            "ErstelltAm": "2020-02-12T12:29:41.155631",
+            "MaxZeichen": "162",
+            "MinZeichen": "0",
+            "Defaultwert": "Vorbefüllt",
+            "ErstelltVon": 6,
+            "GeaendertAm": null,
+            "Beschreibung": null,
+            "GeaendertVon": null,
+            "IstLoeschbar": true,
+            "DigitasInfoId": null,
+            "IstEditierbar": true,
+            "PflichtAntrag": true,
+            "AntwortOptionId": null,
+            "PflichtSetOrder": false,
+            "AntragsbereichId": 672,
+            "AndruckImBeiblatt": false,
+            "BedingungszielList": [],
+            "AntwortOptionenJSON": ""
+          }
+        ],
+        "Bezeichnung": "Bankverbindung für Beitragszahlung",
+      }
+    ],
+}
